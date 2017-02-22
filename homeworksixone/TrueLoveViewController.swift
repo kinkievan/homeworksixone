@@ -44,8 +44,8 @@ class TrueLoveViewController: UIViewController {
     }
     
 
-    @IBAction func moneySwitchAction(_ sender: Any) {
-        if moneySwitch.isOn==true{
+    @IBAction func moneySwitchAction(_ sender: UISwitch) {
+        if sender.isOn==true{
             stateLabel.text="有錢"
         }
         else{
